@@ -1,4 +1,40 @@
 {
   "indexes": [],
-  "fieldOverrides": []
+  "fieldOverrides": [
+    {
+      "collectionGroup": "entries",
+      "fieldPath": "clientCreated",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "entries",
+      "fieldPath": "firestoreCreated",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "entries",
+      "fieldPath": "functionTriggered",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "entries",
+      "fieldPath": "functionExecuted",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "entries",
+      "fieldPath": "firestoreUpdated",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "entriesCall",
+      "fieldPath": "firestoreCreated",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "entriesCall",
+      "fieldPath": "functionExecuted",
+      "indexes": []
+    }
+  ]
 }
